@@ -10,12 +10,13 @@ This project focuses on customer analysis and sales forecasting using machine le
 2. **Customer Segmentation**
 3. **Cluster Analysis**
 4. **Sales Forecasting**
-5. **Result Visualization**
+5. **Segmentation Results**
+6. **Forecast Results**
 
 ## Requirements
 
 - Python 3.x
-- Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`, `xgboost`, `fbprophet`
+- Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`, `arima`.
 
 ### Exploratory Data Analysis (EDA)
 
@@ -31,13 +32,9 @@ The results of the segmentation are evaluated to determine the value and behavio
 
 ### Sales Forecasting
 
-Predictive models are used to forecast future sales. Techniques such as ARIMA and Prophet are employed to make these predictions.
+Arima predictive model is used to forecast future sales.
 
-### Result Visualization
-
-Results are visualized using graphs and interactive dashboards for better interpretation and communication of findings.
-
-## Results
+## Segmentation Results
 
 ### Customer Summary
 
@@ -58,6 +55,23 @@ Results are visualized using graphs and interactive dashboards for better interp
   - Average products per transaction: 3
   - Average cost per unit: $5.23
   - Contribution to Total Sales: $1,080,424.72 (32% of total)
+
+## Forecast Results
+
+| Date       | y     | yhat_lower | yhat_upper |
+|------------|----------|------------|------------|
+| 2011-12-31 | 149,265.86 | 48,462.27   | 250,069.44 |
+| 2012-01-31 | 103,328.18 | -12,089.48  | 218,745.85 |
+| 2012-02-29 | 130,740.51 | -11,318.00  | 272,799.01 |
+| 2012-03-31 | 114,382.79 | -42,658.67  | 271,424.25 |
+| 2012-04-30 | 124,143.91 | -50,503.62  | 298,791.44 |
+| 2012-05-31 | 118,319.17 | -70,120.04  | 306,758.38 |
+| 2012-06-30 | 121,794.96 | -80,703.92  | 324,293.83 |
+| 2012-07-31 | 119,720.86 | -95,239.11  | 334,680.82 |
+| 2012-08-31 | 120,958.53 | -106,163.72 | 348,080.78 |
+| 2012-09-30 | 120,219.97 | -118,226.31 | 358,666.26 |
+| 2012-10-31 | 120,660.69 | -128,720.64 | 370,042.02 |
+| 2012-11-30 | 120,397.70 | -139,387.29 | 380,182.69 |
 
 ## Contributions
 
