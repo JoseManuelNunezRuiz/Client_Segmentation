@@ -46,7 +46,7 @@ Arima predictive model is used to forecast future sales.
 
 - **Cluster 1: High-Value Customers**
   - Cluster Size: 110,609 customers (29% of total)
-  - Average products per transaction: 9.70
+  - Average products per transaction: 10
   - Average cost per unit: $1.65
   - Contribution to Total Sales: $1,686,770.31 (50% of total)
 
